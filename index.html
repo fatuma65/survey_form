@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Survey Form</title>
-</head>
-<body>
-    <h1>SURVEY Form</h1>
-    <p>We appreciate your participation in our industry. 
-        Please take the <br>survey and leave a remark below with future improvement.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <h1>FEEDBACK FORM</h1>
+    <p>
+      We appreciate your participation in our industry. Please take the
+      <br />survey and leave a remark below with future improvement.
+    </p>
     <form class="surveyForm">
-        <fieldset>
-            <h3>Personal information</h3>
-            <label for="names">Name
-                <input type="text" id="names" placeholder="Enter your name">
-            </label>
-            <label for="age">Age
-                <input type="text" id="age" placeholder="Enter your age">
-            </label>
-            <label for="gender">Gender
-                <input type="text" id="gender" placeholder="Enter your gender">
-            </label>
-            <label for="address">Address
-                <input type="text" id="address" placeholder="Enter your address">
-            </label>
-            <label for="email">Email
-                <input type="text" id="email" placeholder="Enter your email">
-            </label>
-        </fieldset>
-        <fieldset>
-            <h4>Question 1. Type here your question. Which is your question</h4>
-            <textarea name="question1" id="quest1" cols="70" rows="7"></textarea>
-            <h4>Question 2. Type here your question. Which is your question</h4>
-            <textarea name="question2" id="quest2" cols="70" rows="7"></textarea>
-            <h4>Question 3. Type here your question. Which is your question</h4>
-            <textarea name="question3" id="quest3" cols="70" rows="7"></textarea>
-        </fieldset>
-        <button id="submit">Submit</button>
+      <fieldset>
+        <h3>Personal information</h3>
+        <label for="names" id="name">Name</label>
+        <input type="text" id="names" placeholder="Enter your name" required />
+
+        <label for="age">Age</label>
+        <input type="text" id="age" placeholder="Enter your age" required />
+
+        <label for="gender">Gender</label>
+        <input
+          type="text"
+          id="gender"
+          placeholder="Enter your gender"
+          required />
+        <label for="address">Address</label>
+        <input
+          type="text"
+          id="address"
+          placeholder="Enter your address"
+          required />
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your email" required />
+      </fieldset>
+      <fieldset>
+        <h4>Question 2. Type here your question. Which is your question</h4>
+        <textarea name="question2" id="quest2" cols="70" rows="7"></textarea>
+      </fieldset>
+      <button id="submit">Submit</button>
     </form>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
