@@ -4,6 +4,9 @@ body {
 h1, p{
     text-align: center;
 }
+p {
+    font-size: 18px;
+}
 .surveyForm {
    width: 30em;
    margin-left: auto;
@@ -38,4 +41,8 @@ input, textarea {
     margin-left: 170px;
     border-radius: 5px;
     cursor: pointer;
+    border: none;
+}
+#submit:hover {
+    background-color: #000;
 }
